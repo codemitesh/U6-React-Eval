@@ -50,7 +50,7 @@ const handleFilter = (e)=>{
       <div className = "movies-list">
        {/* map throught th movie list and display the results */}
   
-       <div className="imgGrid">
+       <div className="imageGrid">
        {data[0]?.map((e)=>{
          return <div key={e.id} >
            <div >
