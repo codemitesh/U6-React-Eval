@@ -1,0 +1,12 @@
+.imgGrid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1200px;
+}
+
+.imgGrid img {
+  width: 250px;
+  height: 250px;
+  margin: 20px 20px 0px 20px;
+}
