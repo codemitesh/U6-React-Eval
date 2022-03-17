@@ -22,7 +22,7 @@ const links = [
 ];
 export const Navbar = () => {
   return (
-    <div className="navDiv">
+    <div className="navbarDiv">
       {links.map((e, i) => {
         return (
           <Link className="Link" key={i} id={e.id} to={e.link}>
