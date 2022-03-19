@@ -22,7 +22,7 @@ export const Reducer = (state = initState, { type, payload }) => {
       return { ...state, isLoading: false, data: [...state.data, payload] };
     case GET_MOVIES_DATA_ERROR:
       return { ...state, isError: true };
-    case FILTER_GENER :
+    case FILTER_GENRE :
        const newData = state.data[0]?.filter((item)=>item.genre != payload)
       
        return { ...state, filterData : [ ...state.filterData, newData]}
