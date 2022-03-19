@@ -1,5 +1,5 @@
 import {
-  FILTER_GENER,
+  FILTER_GENRE,
   GET_MOVIES_DATA_ERROR,
   GET_MOVIES_DATA_LOADING,
   GET_MOVIES_DATA_SUCCESS,
@@ -25,6 +25,6 @@ export const getMovieDataError = (message) => ({
 // action object for filter  feature
 
 export const filterByGenre = (payload) => ({
-  type : FILTER_GENER,
+  type : FILTER_GENRE,
   payload
 });
